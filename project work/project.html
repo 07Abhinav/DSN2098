@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeGram</title>
+    <style>
+      element.style {
+      }
+      body {
+          line-height: inherit;
+          margin: 0;
+      }
+      body {
+          font-family: Poppins,"sans-serif";
+      }
+      element.style {
+      }
+      .cursor-pointer {
+          cursor: pointer;
+      }
+      img, video {
+          height: auto;
+          max-width: 100%;
+      }
+      audio, canvas, embed, iframe, img, object, svg, video {
+          display: block;
+          vertical-align: middle;
+      }
+      element.style {
+      }
+      .gap-10 {
+          gap: 2.5rem;
+      }
+      .items-center {
+          align-items: center;
+      }
+      .flex {
+          display: flex;
+      }
+      element.style {
+      }
+      .cursor-pointer {
+          cursor: pointer;
+      }
+      img, video {
+          height: auto;
+          max-width: 100%;
+      }
+      audio, canvas, embed, iframe, img, object, svg, video {
+          display: block;
+          vertical-align: middle;
+      }
+      element.style {
+      }
+      .py-7 {
+          padding-bottom: 1.75rem;
+          padding-top: 1.75rem;
+      }
+      .px-16 {
+          padding-left: 4rem;
+          padding-right: 4rem;
+      }
+      .bg-white {
+          --tw-bg-opacity: 1;
+          background-color: rgb(255 255 255/var(--tw-bg-opacity));
+      }
+      .border-gray-300 {
+          --tw-border-opacity: 1;
+          border-color: rgb(209 213 219/var(--tw-border-opacity));
+      }
+      .border-b-\[1px\] {
+          border-bottom-width: 1px;
+      }
+      .justify-between {
+          justify-content: space-between;
+      }
+      .items-center {
+          align-items: center;
+      }
+      .flex {
+          display: flex;
+      }
+      element.style {
+      }
+      .opacity-100 {
+          opacity: 1;
+      }
+      .font-medium {
+          font-weight: 500;
+      }
+      .navlink {
+          opacity: .7;
+      }
+      a {
+          color: inherit;
+          text-decoration: inherit;
+      }
+      element.style {
+      }
+      .navlink {
+          opacity: .7;
+      }
+      a {
+          color: inherit;
+          text-decoration: inherit;
+      }
+      element.style {
+      }
+      .navlink {
+          opacity: .7;
+      }
+      a {
+          color: inherit;
+          text-decoration: inherit;
+      }
+      element.style {
+      }
+      .font-semibold {
+          font-weight: 600;
+      }
+      .px-9 {
+          padding-left: 2.25rem;
+          padding-right: 2.25rem;
+      }
+      .py-2 {
+          padding-bottom: 0.5rem;
+          padding-top: 0.5rem;
+      }
+      .bg-\[\#FFC300\], .bg-\[\#ffc300\] {
+          --tw-bg-opacity: 1;
+          background-color: rgb(255 195 0/var(--tw-bg-opacity));
+      }
+      .rounded-md {
+          border-radius: 0.375rem;
+      }
+      [role=button], button {
+          cursor: pointer;
+      }
+      [type=button], [type=reset], [type=submit], button {
+          -webkit-appearance: button;
+          background-color: transparent;
+          background-image: none;
+      }
+      button, select {
+          text-transform: none;
+      }
+      button, input, optgroup, select, textarea {
+          color: inherit;
+          font-family: inherit;
+          font-size: 100%;
+          line-height: inherit;
+          margin: 0;
+          padding: 0;
+      }
+      element.style {
+      }
+      .gap-10 {
+          gap: 2.5rem;
+      }
+      .items-center {
+          align-items: center;
+      }
+      .flex {
+          display: flex;
+      }
+      element.style {
+      }
+      .py-7 {
+          padding-bottom: 1.75rem;
+          padding-top: 1.75rem;
+      }
+      .px-16 {
+          padding-left: 4rem;
+          padding-right: 4rem;
+      }
+      .bg-white {
+          --tw-bg-opacity: 1;
+          background-color: rgb(255 255 255/var(--tw-bg-opacity));
+      }
+      .border-gray-300 {
+          --tw-border-opacity: 1;
+          border-color: rgb(209 213 219/var(--tw-border-opacity));
+      }
+      .border-b-\[1px\] {
+          border-bottom-width: 1px;
+      }
+      .justify-between {
+          justify-content: space-between;
+      }
+      .items-center {
+          align-items: center;
+      }
+      .flex {
+          display: flex;
+      }
+      element.style {
+      }
+      .gap-5 {
+          gap: 1.25rem;
+      }
+      .items-center {
+          align-items: center;
+      }
+      .flex {
+          display: flex;
+      }
+      .mx-16 {
+          margin-left: 4rem;
+          margin-right: 4rem;
+      }
+      .my-10 {
+          margin-bottom: 2.5rem;
+          margin-top: 2.5rem;
+      }
+      element.style {
+      }
+      .mb-12 {
+          margin-bottom: 3rem;
+      }
+      .mx-16 {
+          margin-left: 4rem;
+          margin-right: 4rem;
+      }
+      element.style {
+      }
+      .gap-4 {
+          gap: 1rem;
+      }
+      .items-center {
+          align-items: center;
+      }
+      .flex {
+          display: flex;
+      }
+      .mx-16 {
+          margin-left: 4rem;
+          margin-right: 4rem;
+      }
+      element.style {
+      }
+      .py-7 {
+          padding-bottom: 1.75rem;
+          padding-top: 1.75rem;
+      }
+      .px-16 {
+          padding-left: 4rem;
+          padding-right: 4rem;
+      }
+      .bg-black {
+          --tw-bg-opacity: 1;
+          background-color: rgb(0 0 0/var(--tw-bg-opacity));
+      }
+      .justify-between {
+          justify-content: space-between;
+      }
+      .items-center {
+          align-items: center;
+      }
+      .flex {
+          display: flex;
+      }
+      .mt-24 {
+          margin-top: 6rem;
+      }
+      element.style {
+      }
+      .text-gray-600 {
+          --tw-text-opacity: 1;
+          color: rgb(75 85 99/var(--tw-text-opacity));
+      }
+      .mr-0\.5 {
+          margin-right: 0.125rem;
+      }
+      :root{
+          --toastify-color-light: #fff;
+          --toastify-color-dark: #121212;
+          --toastify-color-info: #3498db;
+          --toastify-color-success: #07bc0c;
+          --toastify-color-warning: #f1c40f;
+          --toastify-color-error: #e74c3c;
+          --toastify-color-transparent: hsla(0,0%,100%,.7);
+          --toastify-icon-color-info: rgb(52 152 219);
+          --toastify-icon-color-success: rgb(7 188 12);
+          --toastify-icon-color-warning: rgb(241 196 15);
+          --toastify-icon-color-error: rgb(231 76 60);
+          --toastify-toast-width: 320px;
+          --toastify-toast-background: #fff;
+          --toastify-toast-min-height: 64px;
+          --toastify-toast-max-height: 800px;
+          --toastify-font-family: sans-serif;
+          --toastify-z-index: 9999;
+          --toastify-text-color-light: #757575;
+          --toastify-text-color-dark: #fff;
+          --toastify-text-color-info: #fff;
+          --toastify-text-color-success: #fff;
+          --toastify-text-color-warning: #fff;
+          --toastify-text-color-error: #fff;
+          --toastify-spinner-color: #616161;
+          --toastify-spinner-color-empty-area: #e0e0e0;
+          --toastify-color-progress-light: linear-gradient(90deg,#4cd964,#5ac8fa,#007aff,#34aadc,#5856d6,#ff2d55);
+          --toastify-color-progress-dark: #bb86fc;
+          --toastify-color-progress-info: rgb(52 152 219);
+          --toastify-color-progress-success: rgb(7 188 12);
+          --toastify-color-progress-warning: rgb(241 196 15);
+          --toastify-color-progress-error: rgb(231 76 60);
+      }
+      html {
+          -webkit-text-size-adjust: 100%;
+          font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+          line-height: 1.5;
+          tab-size: 4;
+      }
+      *, :after, :before {
+          --tw-translate-x: 0;
+          --tw-translate-y: 0;
+          --tw-rotate: 0;
+          --tw-skew-x: 0;
+          --tw-skew-y: 0;
+          --tw-scale-x: 1;
+          --tw-scale-y: 1;
+          --tw-pan-x: ;
+          --tw-pan-y: ;
+          --tw-pinch-zoom: ;
+          --tw-scroll-snap-strictness: proximity;
+          --tw-ordinal: ;
+          --tw-slashed-zero: ;
+          --tw-numeric-figure: ;
+          --tw-numeric-spacing: ;
+          --tw-numeric-fraction: ;
+          --tw-ring-inset: ;
+          --tw-ring-offset-width: 0px;
+          --tw-ring-offset-color: #fff;
+          --tw-ring-color: rgba(59,130,246,.5);
+          --tw-ring-offset-shadow: 0 0 #0000;
+          --tw-ring-shadow: 0 0 #0000;
+          --tw-shadow: 0 0 #0000;
+          --tw-shadow-colored: 0 0 #0000;
+          --tw-blur: ;
+          --tw-brightness: ;
+          --tw-contrast: ;
+          --tw-grayscale: ;
+          --tw-hue-rotate: ;
+          --tw-invert: ;
+          --tw-saturate: ;
+          --tw-sepia: ;
+          --tw-drop-shadow: ;
+          --tw-backdrop-blur: ;
+          --tw-backdrop-brightness: ;
+          --tw-backdrop-contrast: ;
+          --tw-backdrop-grayscale: ;
+          --tw-backdrop-hue-rotate: ;
+          --tw-backdrop-invert: ;
+          --tw-backdrop-opacity: ;
+          --tw-backdrop-saturate: ;
+          --tw-backdrop-sepia: ;
+      }
+      *, :after, :before {
+          border: 0 solid #e5e7eb;
+          box-sizing: border-box;
+      }
+      html[Attributes Style] {
+          -webkit-locale: "en";
+      }
+      html {
+          display: block;
+      }
+      *, :after, :before {
+          --tw-translate-x: 0;
+          --tw-translate-y: 0;
+          --tw-rotate: 0;
+          --tw-skew-x: 0;
+          --tw-skew-y: 0;
+          --tw-scale-x: 1;
+          --tw-scale-y: 1;
+          --tw-pan-x: ;
+          --tw-pan-y: ;
+          --tw-pinch-zoom: ;
+          --tw-scroll-snap-strictness: proximity;
+          --tw-ordinal: ;
+          --tw-slashed-zero: ;
+          --tw-numeric-figure: ;
+          --tw-numeric-spacing: ;
+          --tw-numeric-fraction: ;
+          --tw-ring-inset: ;
+          --tw-ring-offset-width: 0px;
+          --tw-ring-offset-color: #fff;
+          --tw-ring-color: rgba(59,130,246,.5);
+          --tw-ring-offset-shadow: 0 0 #0000;
+          --tw-ring-shadow: 0 0 #0000;
+          --tw-shadow: 0 0 #0000;
+          --tw-shadow-colored: 0 0 #0000;
+          --tw-blur: ;
+          --tw-brightness: ;
+          --tw-contrast: ;
+          --tw-grayscale: ;
+          --tw-hue-rotate: ;
+          --tw-invert: ;
+          --tw-saturate: ;
+          --tw-sepia: ;
+          --tw-drop-shadow: ;
+          --tw-backdrop-blur: ;
+          --tw-backdrop-brightness: ;
+          --tw-backdrop-contrast: ;
+          --tw-backdrop-grayscale: ;
+          --tw-backdrop-hue-rotate: ;
+          --tw-backdrop-invert: ;
+          --tw-backdrop-opacity: ;
+          --tw-backdrop-saturate: ;
+          --tw-backdrop-sepia: ;
+      }
+      :after, :before {
+          --tw-content: "";
+      }
+      *, :after, :before {
+          border: 0 solid #e5e7eb;
+          box-sizing: border-box;
+      }
+      element.style {
+      }
+      *, :after, :before {
+          --tw-translate-x: 0;
+          --tw-translate-y: 0;
+          --tw-rotate: 0;
+          --tw-skew-x: 0;
+          --tw-skew-y: 0;
+          --tw-scale-x: 1;
+          --tw-scale-y: 1;
+          --tw-pan-x: ;
+          --tw-pan-y: ;
+          --tw-pinch-zoom: ;
+          --tw-scroll-snap-strictness: proximity;
+          --tw-ordinal: ;
+          --tw-slashed-zero: ;
+          --tw-numeric-figure: ;
+          --tw-numeric-spacing: ;
+          --tw-numeric-fraction: ;
+          --tw-ring-inset: ;
+          --tw-ring-offset-width: 0px;
+          --tw-ring-offset-color: #fff;
+          --tw-ring-color: rgba(59,130,246,.5);
+          --tw-ring-offset-shadow: 0 0 #0000;
+          --tw-ring-shadow: 0 0 #0000;
+          --tw-shadow: 0 0 #0000;
+          --tw-shadow-colored: 0 0 #0000;
+          --tw-blur: ;
+          --tw-brightness: ;
+          --tw-contrast: ;
+          --tw-grayscale: ;
+          --tw-hue-rotate: ;
+          --tw-invert: ;
+          --tw-saturate: ;
+          --tw-sepia: ;
+          --tw-drop-shadow: ;
+          --tw-backdrop-blur: ;
+          --tw-backdrop-brightness: ;
+          --tw-backdrop-contrast: ;
+          --tw-backdrop-grayscale: ;
+          --tw-backdrop-hue-rotate: ;
+          --tw-backdrop-invert: ;
+          --tw-backdrop-opacity: ;
+          --tw-backdrop-saturate: ;
+          --tw-backdrop-sepia: ;
+      }
+      *, :after, :before {
+          border: 0 solid #e5e7eb;
+          box-sizing: border-box;
+      }
+      user agent stylesheet
+      head {
+          display: none;
+      }
+      element.style {
+      }
+      .text-white {
+          --tw-text-opacity: 1;
+          color: rgb(255 255 255/var(--tw-text-opacity));
+      }
+      .font-semibold {
+          font-weight: 600;
+      }
+      a {
+          color: inherit;
+          text-decoration: inherit;
+      }
+      element.style {
+      }
+      img, video {
+          height: auto;
+          max-width: 100%;
+      }
+      audio, canvas, embed, iframe, img, object, svg, video {
+          display: block;
+          vertical-align: middle;
+      }
+      :root {
+          --toastify-color-light: #fff;
+          --toastify-color-dark: #121212;
+          --toastify-color-info: #3498db;
+          --toastify-color-success: #07bc0c;
+          --toastify-color-warning: #f1c40f;
+          --toastify-color-error: #e74c3c;
+          --toastify-color-transparent: hsla(0,0%,100%,.7);
+          --toastify-icon-color-info: var(--toastify-color-info);
+          --toastify-icon-color-success: var(--toastify-color-success);
+          --toastify-icon-color-warning: var(--toastify-color-warning);
+          --toastify-icon-color-error: var(--toastify-color-error);
+          --toastify-toast-width: 320px;
+          --toastify-toast-background: #fff;
+          --toastify-toast-min-height: 64px;
+          --toastify-toast-max-height: 800px;
+          --toastify-font-family: sans-serif;
+          --toastify-z-index: 9999;
+          --toastify-text-color-light: #757575;
+          --toastify-text-color-dark: #fff;
+          --toastify-text-color-info: #fff;
+          --toastify-text-color-success: #fff;
+          --toastify-text-color-warning: #fff;
+          --toastify-text-color-error: #fff;
+          --toastify-spinner-color: #616161;
+          --toastify-spinner-color-empty-area: #e0e0e0;
+          --toastify-color-progress-light: linear-gradient(90deg,#4cd964,#5ac8fa,#007aff,#34aadc,#5856d6,#ff2d55);
+          --toastify-color-progress-dark: #bb86fc;
+          --toastify-color-progress-info: var(--toastify-color-info);
+          --toastify-color-progress-success: var(--toastify-color-success);
+          --toastify-color-progress-warning: var(--toastify-color-warning);
+          --toastify-color-progress-error: var(--toastify-color-error);
+      }
+      html {
+          -webkit-text-size-adjust: 100%;
+          font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+          line-height: 1.5;
+          tab-size: 4;
+      }
+      *, :after, :before {
+          --tw-translate-x: 0;
+          --tw-translate-y: 0;
+          --tw-rotate: 0;
+          --tw-skew-x: 0;
+          --tw-skew-y: 0;
+          --tw-scale-x: 1;
+          --tw-scale-y: 1;
+          --tw-pan-x: ;
+          --tw-pan-y: ;
+          --tw-pinch-zoom: ;
+          --tw-scroll-snap-strictness: proximity;
+          --tw-ordinal: ;
+          --tw-slashed-zero: ;
+          --tw-numeric-figure: ;
+          --tw-numeric-spacing: ;
+          --tw-numeric-fraction: ;
+          --tw-ring-inset: ;
+          --tw-ring-offset-width: 0px;
+          --tw-ring-offset-color: #fff;
+          --tw-ring-color: rgba(59,130,246,.5);
+          --tw-ring-offset-shadow: 0 0 #0000;
+          --tw-ring-shadow: 0 0 #0000;
+          --tw-shadow: 0 0 #0000;
+          --tw-shadow-colored: 0 0 #0000;
+          --tw-blur: ;
+          --tw-brightness: ;
+          --tw-contrast: ;
+          --tw-grayscale: ;
+          --tw-hue-rotate: ;
+          --tw-invert: ;
+          --tw-saturate: ;
+          --tw-sepia: ;
+          --tw-drop-shadow: ;
+          --tw-backdrop-blur: ;
+          --tw-backdrop-brightness: ;
+          --tw-backdrop-contrast: ;
+          --tw-backdrop-grayscale: ;
+          --tw-backdrop-hue-rotate: ;
+          --tw-backdrop-invert: ;
+          --tw-backdrop-opacity: ;
+          --tw-backdrop-saturate: ;
+          --tw-backdrop-sepia: ;
+      }
+      :after, :before {
+          --tw-content: "";
+      }
+      *, :after, :before {
+          border: 0 solid #e5e7eb;
+          box-sizing: border-box;
+      }
+      *, :after, :before {
+          --tw-translate-x: 0;
+          --tw-translate-y: 0;
+          --tw-rotate: 0;
+          --tw-skew-x: 0;
+          --tw-skew-y: 0;
+          --tw-scale-x: 1;
+          --tw-scale-y: 1;
+          --tw-pan-x: ;
+          --tw-pan-y: ;
+          --tw-pinch-zoom: ;
+          --tw-scroll-snap-strictness: proximity;
+          --tw-ordinal: ;
+          --tw-slashed-zero: ;
+          --tw-numeric-figure: ;
+          --tw-numeric-spacing: ;
+          --tw-numeric-fraction: ;
+          --tw-ring-inset: ;
+          --tw-ring-offset-width: 0px;
+          --tw-ring-offset-color: #fff;
+          --tw-ring-color: rgba(59,130,246,.5);
+          --tw-ring-offset-shadow: 0 0 #0000;
+          --tw-ring-shadow: 0 0 #0000;
+          --tw-shadow: 0 0 #0000;
+          --tw-shadow-colored: 0 0 #0000;
+          --tw-blur: ;
+          --tw-brightness: ;
+          --tw-contrast: ;
+          --tw-grayscale: ;
+          --tw-hue-rotate: ;
+          --tw-invert: ;
+          --tw-saturate: ;
+          --tw-sepia: ;
+          --tw-drop-shadow: ;
+          --tw-backdrop-blur: ;
+          --tw-backdrop-brightness: ;
+          --tw-backdrop-contrast: ;
+          --tw-backdrop-grayscale: ;
+          --tw-backdrop-hue-rotate: ;
+          --tw-backdrop-invert: ;
+          --tw-backdrop-opacity: ;
+          --tw-backdrop-saturate: ;
+          --tw-backdrop-sepia: ;
+      }
+      :after, :before {
+          --tw-content: "";
+      }
+      *, :after, :before {
+          border: 0 solid #e5e7eb;
+          box-sizing: border-box;
+      }
+    </style>
+</head>
+<body>
+    <nonscript>You need to enable JavaScript to run this app.</nonscript>
+    <div id="root">
+      <div class="Toastify"></div>
+      <div>
+        <nav class="bg-white px-16 py-7 flex justify-between items-center border-b-[1px] border-gray-300">
+          <img src="/static/media/randomiq-logo-top.95e9c5cfaa4724a76e1f97cc8854298b.svg" alt="" class="cursor-pointer">
+          <div class="flex gap-10 items-center">
+            <a href="/" class="navlink font-medium opacity-100 ">new challenge</a>
+            <a href="/challenges" class="navlink false ">your challenges</a>
+            <a href="/explores" class="navlink false ">explores</a>
+            <button class="bg-[#FFC300] rounded-md hover:bg-yellow-500 font-semibold px-9 py-2">Login</button>
+          </div>
+        </nav>
+        <div class="flex gap-5 items-center mx-16 my-10">
+          <div class="w-max">
+            <button class="py-2 px-3 border-gray-300 w-full border-[1px] rounded-md flex items-center justify-between focus:ring-2 focus:ring-yellow-200 " id="headlessui-listbox-button-1" type="button" aria-haspopup="true" aria-expanded="false">
+              <div>
+                <span class="text-gray-600 mr-0.5">
+                  Type
+                  :
+                </span>
+                 All
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="ml-2 iconify iconify--akar-icons" width="12" height="12" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                  <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m4 9l8 8l8-8"></path>
+                </svg>
+              </button>
+            </div>
+            <div class="w-max">
+              <button class="py-2 px-3 border-gray-300 w-full border-[1px] rounded-md flex items-center justify-between focus:ring-2 focus:ring-yellow-200 " id="headlessui-listbox-button-3" type="button" aria-haspopup="true" aria-expanded="false">
+                <div>
+                  <span class="text-gray-600 mr-0.5">
+                    Price
+                    :
+                  </span>
+                   All
+                  </div>
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="ml-2 iconify iconify--akar-icons" width="12" height="12" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m4 9l8 8l8-8"></path>
+                  </svg>
+                </button>
+              </div>
+              <div class="w-max"><button class="py-2 px-3 border-gray-300 w-full border-[1px] rounded-md flex items-center justify-between focus:ring-2 focus:ring-yellow-200 " id="headlessui-listbox-button-5" type="button" aria-haspopup="true" aria-expanded="false">
+                <div>
+                  <span class="text-gray-600 mr-0.5">
+                    Participant
+                    :
+                  </span>
+                   All
+                  </div>
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="ml-2 iconify iconify--akar-icons" width="12" height="12" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m4 9l8 8l8-8"></path>
+                  </svg>
+                </button>
+              </div>
+              <div class="w-max">
+                <button class="py-2 px-3 border-gray-300 w-full border-[1px] rounded-md flex items-center justify-between focus:ring-2 focus:ring-yellow-200 " id="headlessui-listbox-button-7" type="button" aria-haspopup="true" aria-expanded="false">
+                  <div>
+                    <span class="text-gray-600 mr-0.5">
+                      Accessibility
+                      :
+                    </span>
+                    All
+                  </div>
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="ml-2 iconify iconify--akar-icons" width="12" height="12" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m4 9l8 8l8-8"></path>
+                  </svg>
+                </button>
+              </div>
+              <p class="font-semibold opacity-70 hover:opacity-100 cursor-pointer">Clear</p>
+            </div>
+            <div class="mx-16 mb-12">
+              <h1 class="text-5xl w-5/6 font-semibold leading-tight">Start a webinar on a topic of your choice</h1>
+              <div class="flex items-center gap-6 mt-6">
+                <p class="opacity-80 text-lg">
+                  Type: 
+                  education 
+                </p>
+                <p class="opacity-80 text-lg">
+                  Price:
+                  Free 
+                </p>
+                <p class="opacity-80 text-lg">
+                  Participants: 
+                  1 
+                </p>
+                <p class="opacity-80 text-lg">
+                  Accessibility:
+                  Hard 
+                </p>
+              </div>
+            </div>
+            <div class="flex items-center mx-16 gap-4">
+              <button class="text-xl font-medium py-4 px-8 border-2 border-[#FFC300] rounded-lg bg-white hover:bg-yellow-100 false ">Accept Challenge</button>
+              <button class="text-white p-4 bg-[#FFC300] rounded-lg hover:bg-yellow-500 cursor-pointer false ">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="36" height="36" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                  <path fill="currentColor" d="M12 5V3.21c0-.45-.54-.67-.85-.35l-2.8 2.79c-.2.2-.2.51 0 .71l2.79 2.79c.32.31.86.09.86-.36V7c3.31 0 6 2.69 6 6c0 2.72-1.83 5.02-4.31 5.75c-.42.12-.69.52-.69.95c0 .65.62 1.16 1.25.97A7.991 7.991 0 0 0 20 13c0-4.42-3.58-8-8-8zm-6 8c0-1.34.44-2.58 1.19-3.59c.3-.4.26-.95-.09-1.31c-.42-.42-1.14-.38-1.5.1a7.991 7.991 0 0 0 4.15 12.47c.63.19 1.25-.32 1.25-.97c0-.43-.27-.83-.69-.95C7.83 18.02 6 15.72 6 13z"></path>
+                </svg>
+              </button>
+            </div>
+            <footer class="bg-black px-16 py-7 flex justify-between items-center mt-24">
+              <img src="/static/media/randomiq-logo-bottom.3d9dd7a9c5f4e4042c740c1037354385.svg" alt="">
+              <div class="flex gap-8">
+                <a href="https://twitter.com/emrsyahh" target="_blank" rel="noreferrer" class="font-semibold text-white hover:text-[#FFC300]">twitter</a>
+                <a href="https://github.com/emrsyah" target="_blank" rel="noreferrer" class="font-semibold text-white hover:text-[#FFC300]">github</a>
+              </div>
+            </footer>
+      </div>
+    </div>
+</body>
+</html>
